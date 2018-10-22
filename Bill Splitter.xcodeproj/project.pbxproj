@@ -13,6 +13,7 @@
 		493BFD351E7DB300001752E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493BFD331E7DB300001752E7 /* Main.storyboard */; };
 		493BFD371E7DB301001752E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493BFD361E7DB301001752E7 /* Assets.xcassets */; };
 		493BFD3A1E7DB301001752E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493BFD381E7DB301001752E7 /* LaunchScreen.storyboard */; };
+		493BFD431E7DC2A0001752E7 /* Tip.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BFD421E7DC2A0001752E7 /* Tip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		493BFD361E7DB301001752E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493BFD391E7DB301001752E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		493BFD3B1E7DB301001752E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493BFD411E7DC2A0001752E7 /* Tip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tip.h; sourceTree = "<group>"; };
+		493BFD421E7DC2A0001752E7 /* Tip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				493BFD381E7DB301001752E7 /* LaunchScreen.storyboard */,
 				493BFD3B1E7DB301001752E7 /* Info.plist */,
 				493BFD2A1E7DB300001752E7 /* Supporting Files */,
+				493BFD411E7DC2A0001752E7 /* Tip.h */,
+				493BFD421E7DC2A0001752E7 /* Tip.m */,
 			);
 			path = "Bill Splitter";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493BFD321E7DB300001752E7 /* ViewController.m in Sources */,
+				493BFD431E7DC2A0001752E7 /* Tip.m in Sources */,
 				493BFD2F1E7DB300001752E7 /* AppDelegate.m in Sources */,
 				493BFD2C1E7DB300001752E7 /* main.m in Sources */,
 			);
